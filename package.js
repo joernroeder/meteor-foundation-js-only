@@ -8,7 +8,7 @@ Package.on_use(function (api) {
 	var path = Npm.require('path');
 	api.add_files(path.join('client', 'vendor/custom.modernizr.js'), 'client');
 	api.add_files(path.join('client', 'vendor/fastclick.js'), 'client');
-	api.add_files(path.join('client', 'vendor/jquery.autocomplete.js'), 'client');
+	//api.add_files(path.join('client', 'vendor/jquery.autocomplete.js'), 'client');
 	api.add_files(path.join('client', 'vendor/jquery.cookie.js'), 'client');
 	api.add_files(path.join('client', 'vendor/placeholder.js'), 'client');
 	api.add_files(path.join('client', 'foundation.js'), 'client');
